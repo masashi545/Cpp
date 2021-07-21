@@ -4,7 +4,7 @@ using namespace std;
 // 抽象構文木のデータ型
 struct ast {
     // 木の節点の種類(葉or枝)
-    enum class nkind {
+    enum nkind {
         LEAF, // 葉
         S,    // 加算の枝
         M     // 乗算の枝
@@ -14,7 +14,7 @@ struct ast {
     union ndata {
         // 葉　-> 整数定数または変数
         struct leaf {
-            enum struct lkind {
+            enum lkind {
                 CONS, // 整数定数
                 VAR   // 変数
             } tag2;
