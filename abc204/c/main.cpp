@@ -1,22 +1,25 @@
 #include <bits/stdc++.h>
 using namespace std;
+#include <atcoder/all>
+using namespace atcoder;
+#define rep(i, n) for (int i = 0; i < (n); ++i)
+using ll = long long;
+using P = pair<int, int>;
 
 int main() {
     int N, M;
     cin >> N >> M;
 
-    vector<vector<int>> R(M);
-    for (int i = 0; i < M; i++) {
+    vector<vector<int>> R(N);
+    rep(i, M) {
         int x, y;
         cin >> x >> y;
-        x--;
-        y--;
-        R[x].push_back(y);
+        R[x - 1].push_back(y - 1);
     }
 
-    int count = N; // スタートとゴールが同じ場合の数
-    for (int i = 0; i < N; i++) {
-        for (auto &x : R[i]) {
-        }
+    int count = 0;
+    rep(i, N) {
+        rep(i, N) {
+                }
     }
 }
