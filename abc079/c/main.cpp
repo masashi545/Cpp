@@ -6,6 +6,7 @@ using namespace atcoder;
 using ll = long long;
 using P = pair<int, int>;
 
+// char to int
 int ctoi(char c) {
     if ('0' <= c && c <= '9') {
         return c - '0';
@@ -13,11 +14,12 @@ int ctoi(char c) {
     return 0;
 }
 
+// true/false -> +/-
 string pm(bool b) {
     if (b)
-        return "-";
-    else
         return "+";
+    else
+        return "-";
 }
 
 int main() {
@@ -29,17 +31,17 @@ int main() {
 
         int res = ctoi(S[0]);
         rep(i, 3) {
-            if (s.test(2 - i)) {
-                res -= ctoi(S[i + 1]);
-            } else {
+            if (s.test(i)) {
                 res += ctoi(S[i + 1]);
+            } else {
+                res -= ctoi(S[i + 1]);
             }
         }
 
         if (res == 7) {
             cout << S[0];
             rep(i, 3) {
-                cout << pm(s.test(2 - i)) << S[i + 1];
+                cout << pm(s.test(i)) << S[i + 1];
             }
             cout << "=7" << endl;
             return 0;

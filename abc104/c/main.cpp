@@ -12,27 +12,32 @@ int main() {
     vector<int> p(d), c(d);
     rep(i, d) cin >> p[i] >> c[i];
 
-    vector<queue<int>> que(d);
+    g /= 100;
+    for (auto &x : c)
+        x /= 100;
+
+    vector<vector<int>> pp(d); // 問題iをj問解いた時の点数
     rep(i, d) {
-        rep(j, p[i] - 1) {
-            que[i].push((i + 1) * 100);
+        vector<int> d(p[i] + 1);
+        rep(j, p[i] + 1) {
+            d[j] = (i + 1) * j;
         }
-        que[i].push((i + 1) * 100 + c[i]);
+        d[p[i]] += c[i];
+
+        pp[i] = d;
     }
 
     int ans = 0;
-    while (g > 0) {
-        int maxp = 0; // 次に1問解いて得られる最大のポイント
-        int prob = 0; // 選ぶ問題
-        rep(i, d) {
-            if (!que[i].empty() && maxp < que[i].front()) {
-                maxp = que[i].front();
-                prob = i;
+    while (1) {
+        int maxp = 0;
+        int tmp = ans;
+        while (maxp < g) {
+            rep(i, d) {
+                if (tmp <= p[i]) { // 回答数が問題数以下の場合は、配列を参照できる
+                    maxp = max(maxp, pp[i][tmp]);
+                }
             }
         }
-        g -= maxp;
-        que[prob].pop();
-        ans++;
     }
 
     cout << ans << endl;
