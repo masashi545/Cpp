@@ -47,3 +47,19 @@ int main() {
 
     return 0;
 }
+
+/*
+in:
+4
+13
+1 2 4 7
+out:
+Yes
+
+in:
+4
+15
+1 2 4 7
+out:
+No
+*/
