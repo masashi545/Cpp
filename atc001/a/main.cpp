@@ -7,57 +7,67 @@ using ll = long long;
 using P = pair<int, int>;
 const int INF = 1e9 + 7;
 
-int h, w;
-vector<vector<char>> G;
-bool ans = false;
-
-bool dfs(int x, int y) {
-    if (x < 0 || h <= x || y < 0 || w <= y) { // 探索範囲外なら打ち止め
-        return false;
-    }
-    if (G[x][y] == '#') { // 現在位置が壁なら打ち止め
-        return false;
-    }
-
-    if (G[x][y] == 'g') { // 現在位置がゴールならOK
-        return true;
-    }
-
-    // 現在位置を壁に変更。一度探索した場所は2度と探索しないように。
-    G[x][y] = '#';
-
-    // 近傍4方向について深さ優先探索
-    if (dfs(x - 1, y))
-        return true;
-    if (dfs(x + 1, y))
-        return true;
-    if (dfs(x, y - 1))
-        return true;
-    if (dfs(x, y + 1))
-        return true;
-
-    return false;
-}
-
 int main() {
+    int h, w;
     cin >> h >> w;
 
+    vector<vector<char>> G;
     rep(i, h) {
         vector<char> x(w);
         rep(j, w) cin >> x[j];
         G.push_back(x);
     }
 
+    vector<P> H = {P(-1, 0), P(1, 0), P(0, -1), P(0, 1)}; // 近傍4方向
+
     int sx, sy; // スタート地点の座標
+    int gx, gy; // ゴール地点の座標
+
+    // スタート地点とゴール地点を探索
     rep(i, h) {
         rep(j, w) {
             if (G[i][j] == 's') {
                 sx = i;
                 sy = j;
             }
+            if (G[i][j] == 'g') {
+                gx = i;
+                gy = j;
+            }
         }
     }
 
-    cout << (dfs(sx, sy) ? "Yes" : "No") << endl;
+    stack<P> stk;                                            // 探索地点を管理
+    vector<vector<bool>> reached(h, vector<bool>(w, false)); // 既に訪れたか
+
+    stk.push(P(sx, sy)); // スタート地点を入れる
+    reached[sx][sy] = true;
+
+    while (!stk.empty()) {
+        P p = stk.top(); // ある地点ｐについて考える
+        stk.pop();
+
+        // 地点ｐがゴールであれば終了
+        if (p.first == gx && p.second == gy) {
+            cout << "Yes" << endl;
+            return 0;
+        }
+        // 近傍4方向について幅優先探索
+        rep(i, 4) {
+            int nx = p.first + H[i].first;
+            int ny = p.second + H[i].second;
+
+            if (0 <= nx && nx < h && 0 <= ny && ny < w) { // 探索範囲内であること
+                if (G[nx][ny] != '#') {                   // 通路であること
+                    if (!reached[nx][ny]) {               // まだ訪れたことがないこと
+                        stk.push(P(nx, ny));
+                        reached[nx][ny] = true;
+                    }
+                }
+            }
+        }
+    }
+
+    cout << "No" << endl;
     return 0;
 }
