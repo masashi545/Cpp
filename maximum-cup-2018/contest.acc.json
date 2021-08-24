@@ -1,0 +1,97 @@
+{
+  "contest": {
+    "id": "maximum-cup-2018",
+    "title": "Maximum-Cup 2018",
+    "url": "https://atcoder.jp/contests/maximum-cup-2018"
+  },
+  "tasks": [
+    {
+      "id": "maximum_cup_2018_a",
+      "label": "A",
+      "title": "フィギュアスケート界の貴公子埼大選手",
+      "url": "https://atcoder.jp/contests/maximum-cup-2018/tasks/maximum_cup_2018_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "maximum_cup_2018_b",
+      "label": "B",
+      "title": "駆け抜けろ！埼大山車部！！",
+      "url": "https://atcoder.jp/contests/maximum-cup-2018/tasks/maximum_cup_2018_b",
+      "directory": {
+        "path": "b",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "maximum_cup_2018_c",
+      "label": "C",
+      "title": "嘘つきな天使たち",
+      "url": "https://atcoder.jp/contests/maximum-cup-2018/tasks/maximum_cup_2018_c",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "maximum_cup_2018_d",
+      "label": "D",
+      "title": "Many Go Round",
+      "url": "https://atcoder.jp/contests/maximum-cup-2018/tasks/maximum_cup_2018_d",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "maximum_cup_2018_e",
+      "label": "E",
+      "title": "Interrupt Array",
+      "url": "https://atcoder.jp/contests/maximum-cup-2018/tasks/maximum_cup_2018_e",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "maximum_cup_2018_f",
+      "label": "F",
+      "title": "献立表制作",
+      "url": "https://atcoder.jp/contests/maximum-cup-2018/tasks/maximum_cup_2018_f",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "maximum_cup_2018_g",
+      "label": "G",
+      "title": "Sparrow's trick",
+      "url": "https://atcoder.jp/contests/maximum-cup-2018/tasks/maximum_cup_2018_g",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "maximum_cup_2018_h",
+      "label": "H",
+      "title": "Maxmin Tour",
+      "url": "https://atcoder.jp/contests/maximum-cup-2018/tasks/maximum_cup_2018_h",
+      "directory": {
+        "path": "h",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

@@ -23,7 +23,7 @@ int main() {
             if (u < v[i]) {
                 dp[i + 1][u] = dp[i][u];
             } else {
-                dp[i + 1][u] = min(dp[i][u], dp[i][u - v[i]] + w[i]);
+                dp[i + 1][u] = min(dp[i][u], dp[i + 1][u - v[i]] + w[i]);
             }
         }
     }

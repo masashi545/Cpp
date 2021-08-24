@@ -12,15 +12,13 @@ ll W;
 vector<int> v, w;
 
 ll search(int i, ll u) { // i番目以降の品物から重さの総和がu以下になるように選んだ時の最大の価値を返す
-    ll ans;
-    if (i == n or u == 0) { // 品物は残っていないので、得られる価値なし
-        ans = 0;
+    if (i == n) {        // 品物は残っていないので、得られる価値なし
+        return 0;
     } else if (u < w[i]) { // この品物は入らないので、次以降の品物について調べる
-        ans = search(i + 1, u);
+        return search(i + 1, u);
     } else { // この品物を入れない場合と、入れる場合でコストが大きくなる方を選ぶ
-        ans = max(search(i + 1, u), search(i + 1, u - w[i]) + v[i]);
+        return max(search(i + 1, u), search(i + 1, u - w[i]) + v[i]);
     }
-    return ans;
 }
 
 int main() {
