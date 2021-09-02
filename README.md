@@ -49,24 +49,28 @@
     - [AOJDPL-1_C](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_C&lang=jp) ナップサック問題 [code](aojdpl/1-c/main.cpp)
     - [ABC153-E](https://atcoder.jp/contests/abc153/tasks/abc153_e) Crested Ibis vs Monster [code](abc153/e/main.cpp)
 + [例題2-3-4](antbook/2-3-4/main.cpp) 01ナップサック問題その2
-    - [ABC032-D](https://atcoder.jp/contests/abc032/tasks/abc032_d) ナップサック問題(TLE x1, WA x1) [code](abc032/d/main.cpp)
-    - [ARC057-B](https://atcoder.jp/contests/arc057/tasks/arc057_b) 高橋君ゲーム(わからない) [code](arc057/b/main.cpp)
+    - [ABC032-D](https://atcoder.jp/contests/abc032/tasks/abc032_d) ナップサック問題(TLE:1, WA:1) [code](abc032/d/main.cpp)
+    - [ARC057-B](https://atcoder.jp/contests/arc057/tasks/arc057_b) 高橋君ゲーム(TLE:1, WA:32) [code](arc057/b/main.cpp)
 + [例題2-3-5](antbook/2-3-5/main.cpp) 個数制限付き部分和問題
     - [MaximumCup2018-D](https://atcoder.jp/contests/maximum-cup-2018/tasks/maximum_cup_2018_d) Many Go Round [code](maximum-cup-2018/d/main.cpp)
 + [例題2-3-6](antbook/2-3-6/main.cpp) 最長増加部分列問題(LIS)
     - [ChokudaiSpeedRun001-H](https://atcoder.jp/contests/chokudai_S001/tasks/chokudai_S001_h) LIS [code](chokudai_S001/h/main.cpp)
     - [ABC006-D](https://atcoder.jp/contests/abc006/tasks/abc006_4) トランプ挿入ソート [code](abc006/d/main.cpp)
-    - [ABC038-D](https://atcoder.jp/contests/abc038/tasks/abc038_d) プレゼント(わからない) [code](abc038/d/main.cpp)
+    - [ABC038-D](https://atcoder.jp/contests/abc038/tasks/abc038_d) プレゼント(わからない)<-２分探索 [code](abc038/d/main.cpp)
 + [例題2-3-7](antbook/2-3-7/main.cpp) 分割数
     - [yukicoder-269](https://yukicoder.me/problems/no/269) 見栄っ張りの募金活動 [code](yukicoder/269/main.cpp)
 + [例題2-3-8](antbook/2-3-8/main.cpp) 重複組合せ
     - [ABC110-D](https://atcoder.jp/contests/abc110/tasks/abc110_d) Factorization(素因数分解) [code](abc110/d/main.cpp)
 
+### データ構造
++ [例題2-4-1](antbook/2-4-1/main.cpp) Expedition(priority_queue, heap)
+    - [CodeThanksFestival-C](https://atcoder.jp/contests/code-thanks-festival-2017-open/tasks/code_thanks_festival_2017_c) Factory [code](code-thanks-festival-2017/c/main.cpp)
++ [例題2-4-2](antbook/2-4-2/main.cpp) 二分探索木(set,map)
+    - [ABC085-B](https://atcoder.jp/contests/abc085/tasks/abc085_b) Kagami Mochi(set) [code](abc085/b/main.cpp)
+    - [ABC091-B](https://atcoder.jp/contests/abc091/tasks/abc091_b) Two Colors Card Game(map) [code](abc091/b/main.cpp)
++ [例題2-4-3](antbook/2-4-3/main.cpp) 食物連鎖(Union-Find木)
+    - [ATC001-B](https://atcoder.jp/contests/atc001/tasks/unionfind_a) Union Find [code](atc001/b/main.cpp)
+    - [ABC049-D](https://atcoder.jp/contests/abc049/tasks/arc065_b) 連結(わからない) [code](abc049/d/main.cpp)
+
 + [例題](antbook//main.cpp)
     - []() [code](/main.cpp)
-
-
-
-
-
-
