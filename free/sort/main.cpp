@@ -236,7 +236,7 @@ int main() {
     // quickSort(a, 0, n - 1);
     // mergeSort(a, 0, n - 1);
     // bubbleSort(a);
-    // heapSort(a);
+    heapSort(a);
     // insertSort(a);
     // bucketSort(a);
     // radixSort(a, 3);

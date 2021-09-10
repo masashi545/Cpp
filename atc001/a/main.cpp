@@ -52,7 +52,7 @@ int main() {
             cout << "Yes" << endl;
             return 0;
         }
-        // 近傍4方向について幅優先探索
+        // 近傍4方向について深さ優先探索
         rep(i, 4) {
             int nx = p.first + H[i].first;
             int ny = p.second + H[i].second;

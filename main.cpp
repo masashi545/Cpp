@@ -5,6 +5,8 @@ using ll = long long;
 using P = pair<int, int>;
 int const INF = 1e9 + 7;
 
+// 入力
+
 int main() {
     return 0;
 }

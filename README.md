@@ -56,7 +56,7 @@
 + [例題2-3-6](antbook/2-3-6/main.cpp) 最長増加部分列問題(LIS)
     - [ChokudaiSpeedRun001-H](https://atcoder.jp/contests/chokudai_S001/tasks/chokudai_S001_h) LIS [code](chokudai_S001/h/main.cpp)
     - [ABC006-D](https://atcoder.jp/contests/abc006/tasks/abc006_4) トランプ挿入ソート [code](abc006/d/main.cpp)
-    - [ABC038-D](https://atcoder.jp/contests/abc038/tasks/abc038_d) プレゼント(わからない)<-２分探索 [code](abc038/d/main.cpp)
+    - [ABC038-D](https://atcoder.jp/contests/abc038/tasks/abc038_d) プレゼント(わからない)<-2分探索 [code](abc038/d/main.cpp)
 + [例題2-3-7](antbook/2-3-7/main.cpp) 分割数
     - [yukicoder-269](https://yukicoder.me/problems/no/269) 見栄っ張りの募金活動 [code](yukicoder/269/main.cpp)
 + [例題2-3-8](antbook/2-3-8/main.cpp) 重複組合せ
@@ -70,7 +70,34 @@
     - [ABC091-B](https://atcoder.jp/contests/abc091/tasks/abc091_b) Two Colors Card Game(map) [code](abc091/b/main.cpp)
 + [例題2-4-3](antbook/2-4-3/main.cpp) 食物連鎖(Union-Find木)
     - [ATC001-B](https://atcoder.jp/contests/atc001/tasks/unionfind_a) Union Find [code](atc001/b/main.cpp)
-    - [ABC049-D](https://atcoder.jp/contests/abc049/tasks/arc065_b) 連結(わからない) [code](abc049/d/main.cpp)
+    - [ABC049-D](https://atcoder.jp/contests/abc049/tasks/arc065_b) 連結(Union-Find -> map) [code](abc049/d/main.cpp)
+
+### グラフ
++ [例題2-5-1](antbook/2-5-1/main.cpp) 二部グラフ判定
+    - [ABC126-D](https://atcoder.jp/contests/abc126/tasks/abc126_d) Even Relation [code](abc126/d/main.cpp)
++ [例題2-5-2](antbook/2-5-2/main.cpp) Roadblocks(Dijkstra、2番目に最短な経路)
+    - [SoundHound2018SummerQual-D](https://atcoder.jp/contests/soundhound2018-summer-qual/tasks/soundhound2018_summer_qual_d) Saving Snuuk(テストは通った、WAいっぱい) [code](soundhound2018-summer-qual/d/main.cpp)
++ [例題2-5-3](antbook/2-5-3/main.cpp) Conscription(Kruskal)
+    - [AOJGRL-2_A](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_2_A&lang=jp) Minimum Spanning Tree [code](aojgrl/2-a/main.cpp)
+    - [ABC065-D](https://atcoder.jp/contests/abc065/tasks/arc076_b) Built?(Kruskal, 枝刈り) [code](abc065/d/main.cpp)
++ [例題2-5-4](antbook/2-5-4/main.cpp) Layout(最短経路問題への帰着)
+    - [AOJGRL-1_B](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_1_B&lang=jp) Single Source Shortest Path (Negative Edges) [code](aojgrl/1-b/main.cpp)
+    - [ABC061-D](https://atcoder.jp/contests/abc061/tasks/abc061_d) Score Attack(WAx3) [code](abc061/d/main.cpp)
++ [例題2-5-5] Warshall-Floyd法を使った問題
+    - [ABC012-D](https://atcoder.jp/contests/abc012/tasks/abc012_4) バスと避けられない運命 [code](abc012/d/main.cpp)
+    - [ABC073-D](https://atcoder.jp/contests/abc073/tasks/abc073_d) joisino's travel [code](abc073/d/main.cpp)
+    
++ 最短経路問題
+    - 単一始点
+        + [Bellman-Ford法](free/graph/Bellman-Ford.cpp) -> $O(|V||E|)$ コスト負の辺がある場合有効
+        + [Dijkstra法](free/graph/Dijkstra.cpp) -> $O(|E|log|V|)$
+    - 全頂点対
+        + [Warshall-Floyd法](free/graph/Warshall-Floyd.cpp) -> $O(|V|^3)$
++ 最小全域木問題
+    - [Prim法](free/graph/Prim.cpp) -> $O(|E|log|V|)$
+    - [Kruskal法](free/graph/Kruskal.cpp) -> $O(|E|log|V|)$
+
+
 
 + [例題](antbook//main.cpp)
     - []() [code](/main.cpp)
