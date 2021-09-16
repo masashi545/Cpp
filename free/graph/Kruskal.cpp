@@ -71,7 +71,7 @@ int kruskal() {
     int ans = 0;
     rep(i, m) {
         edge e = es[i];
-        if (!uf.same(e.u, e.v)) {
+        if (!uf.same(e.u, e.v)) { // 負の枝も存在する場合、"|| e.cost < 0" を付け加える
             uf.unite(e.u, e.v);
             ans += e.cost;
         }

@@ -18,7 +18,7 @@
     - [ABC002-D](https://atcoder.jp/contests/abc002/tasks/abc002_4) 派閥 [code](abc002/d/main.cpp)
 + [例題 2-1-2](antbook/2-1-2/main.cpp) Lake Counting
     - [ATC001-A](https://atcoder.jp/contests/atc001/tasks/dfs_a) 深さ優先探索 [code](atc001/a/main.cpp)
-    - [ARC031-B](https://atcoder.jp/contests/arc031/tasks/arc031_2) 埋め立て [code](abc031/b/main.cpp)
+    - [ARC031-B](https://atcoder.jp/contests/arc031/tasks/arc031_2) 埋め立て [code](arc031/b/main.cpp)
     - [ARC037-B](https://atcoder.jp/contests/arc037/tasks/arc037_b) バウムテスト [code](arc037/b/main.cpp)
 + [例題 2-1-3](antbook/2-1-3/main.cpp) 迷路の最短路
     - [ABC007-C](https://atcoder.jp/contests/abc007/tasks/abc007_3) 幅優先探索 [code](abc007/c/main.cpp)
@@ -76,17 +76,43 @@
 + [例題2-5-1](antbook/2-5-1/main.cpp) 二部グラフ判定
     - [ABC126-D](https://atcoder.jp/contests/abc126/tasks/abc126_d) Even Relation [code](abc126/d/main.cpp)
 + [例題2-5-2](antbook/2-5-2/main.cpp) Roadblocks(Dijkstra、2番目に最短な経路)
-    - [SoundHound2018SummerQual-D](https://atcoder.jp/contests/soundhound2018-summer-qual/tasks/soundhound2018_summer_qual_d) Saving Snuuk(テストは通った、WAいっぱい) [code](soundhound2018-summer-qual/d/main.cpp)
+    - [SoundHound2018SummerQual-D](https://atcoder.jp/contests/soundhound2018-summer-qual/tasks/soundhound2018_summer_qual_d) Saving Snuuk [code](soundhound2018-summer-qual/d/main.cpp)
 + [例題2-5-3](antbook/2-5-3/main.cpp) Conscription(Kruskal)
     - [AOJGRL-2_A](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_2_A&lang=jp) Minimum Spanning Tree [code](aojgrl/2-a/main.cpp)
     - [ABC065-D](https://atcoder.jp/contests/abc065/tasks/arc076_b) Built?(Kruskal, 枝刈り) [code](abc065/d/main.cpp)
 + [例題2-5-4](antbook/2-5-4/main.cpp) Layout(最短経路問題への帰着)
     - [AOJGRL-1_B](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_1_B&lang=jp) Single Source Shortest Path (Negative Edges) [code](aojgrl/1-b/main.cpp)
-    - [ABC061-D](https://atcoder.jp/contests/abc061/tasks/abc061_d) Score Attack(WAx3) [code](abc061/d/main.cpp)
+    - [ABC061-D](https://atcoder.jp/contests/abc061/tasks/abc061_d) Score Attack [code](abc061/d/main.cpp)
 + [例題2-5-5] Warshall-Floyd法を使った問題
     - [ABC012-D](https://atcoder.jp/contests/abc012/tasks/abc012_4) バスと避けられない運命 [code](abc012/d/main.cpp)
     - [ABC073-D](https://atcoder.jp/contests/abc073/tasks/abc073_d) joisino's travel [code](abc073/d/main.cpp)
-    
+
+### 数学的な問題
++ [例題2-6-1](antbook/2-6-1/main.cpp) 線分上の格子点の個数(ユーグリッドの互除法)
+    - [AOJVol-0583](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0583) Common Divisors [code](aojvol/0583/main.cpp)
+    - [ABC070-C](https://atcoder.jp/contests/abc070/tasks/abc070_c) Multiple Clocks [code](abc070/c/main.cpp)
+    - [AGC001-B](https://atcoder.jp/contests/agc001/tasks/agc001_b) Mysterious Light [code](agc001/b/main.cpp)
++ [例題2-6-2](antbook/2-6-2/main.cpp) 双六(拡張ユーグリッドの互除法)
+    - [AOJNTL-1_E](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=NTL_1_E&lang=ja) [code](aojntl/1-e/main.cpp)
++ [例題2-6-3](antbook/2-6-3/main.cpp) 素数判定
+    - [ARC017-A](https://atcoder.jp/contests/arc017/tasks/arc017_1) 素数、コンテスト、素数 [code](arc017/a/main.cpp)
+    - [ABC052-C](https://atcoder.jp/contests/abc052/tasks/arc067_a) Factors of Factorial [code](abc052/c/main.cpp)
+    - [ABC110-D](https://atcoder.jp/contests/abc110/tasks/abc110_d) Factorization [code](abc110/d/main.cpp)
++ [例題2-6-4](antbook/2-6-4/main.cpp) 素数の個数
+    - [ABC084-D](https://atcoder.jp/contests/abc084/tasks/abc084_d) 2017-like Number [code](abc084/d/main.cpp)
+    - [AOJVol-2286](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2286) Farey Sequence(わからん) [code](aojvol/2286/main.cpp)
++ [例題2-6-5](antbook/2-6-5/main.cpp) 区間内の素数の個数
+    - [JAG2017秋](https://atcoder.jp/contests/jag2017autumn/tasks/jag2017autumn_c) Prime-Factor Prime(わからん) [code](jag2017autumn/c/main.cpp)
++ [例題2-6-6](antbook/2-6-6/main.cpp) Carmichael Numbers(べき乗の高速化)
+    - [JOI2007春合宿-fermat](https://atcoder.jp/contests/joisc2007/tasks/joisc2007_fermat) フェルマー方程式 [code](joisc2007/fermat/main.cpp)
+
++ [例題](antbook//main.cpp)
+    - []() [code](/main.cpp)
+
+
+# ライブラリ
+### グラフ
++ [Union-Find木](free/graph/Union-Find.cpp)
 + 最短経路問題
     - 単一始点
         + [Bellman-Ford法](free/graph/Bellman-Ford.cpp) -> $O(|V||E|)$ コスト負の辺がある場合有効
@@ -97,7 +123,11 @@
     - [Prim法](free/graph/Prim.cpp) -> $O(|E|log|V|)$
     - [Kruskal法](free/graph/Kruskal.cpp) -> $O(|E|log|V|)$
 
-
-
-+ [例題](antbook//main.cpp)
-    - []() [code](/main.cpp)
+### 整数
++ [ユーグリッドの互除法](free/num/gcd.cpp) -> $O(logmax(a,b))$
++ 素数問題
+    - [素数判定](free/num/is_prime.cpp) -> $O(\sqrt{n})$
+    - [約数列挙](free/num/divisor.cpp) -> $O(\sqrt{n})$
+    - [素因数分解](free/num/prime_factor.cpp) -> $O(\sqrt{n})$
+    - [素数列挙(エラトステネスの篩)](free/num/eratosthenes.cpp) -> $O(nloglogn)$
++ [べき乗計算(繰り返し2乗法)](free/num/mod_pow.cpp) -> $O(logn)$

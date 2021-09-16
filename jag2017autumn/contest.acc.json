@@ -1,0 +1,130 @@
+{
+  "contest": {
+    "id": "jag2017autumn",
+    "title": "JAG Practice Contest for ACM-ICPC Asia Regional 2017",
+    "url": "https://atcoder.jp/contests/jag2017autumn"
+  },
+  "tasks": [
+    {
+      "id": "jag2017autumn_a",
+      "label": "A",
+      "title": "Window",
+      "url": "https://atcoder.jp/contests/jag2017autumn/tasks/jag2017autumn_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "jag2017autumn_b",
+      "label": "B",
+      "title": "Tournament Chart",
+      "url": "https://atcoder.jp/contests/jag2017autumn/tasks/jag2017autumn_b",
+      "directory": {
+        "path": "b",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "jag2017autumn_c",
+      "label": "C",
+      "title": "Prime-Factor Prime",
+      "url": "https://atcoder.jp/contests/jag2017autumn/tasks/jag2017autumn_c",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "jag2017autumn_d",
+      "label": "D",
+      "title": "Revenge of the Broken Door",
+      "url": "https://atcoder.jp/contests/jag2017autumn/tasks/jag2017autumn_d",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "jag2017autumn_e",
+      "label": "E",
+      "title": "Tree Separator",
+      "url": "https://atcoder.jp/contests/jag2017autumn/tasks/jag2017autumn_e",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "jag2017autumn_f",
+      "label": "F",
+      "title": "RPG Maker",
+      "url": "https://atcoder.jp/contests/jag2017autumn/tasks/jag2017autumn_f",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "jag2017autumn_g",
+      "label": "G",
+      "title": "Coin Slider",
+      "url": "https://atcoder.jp/contests/jag2017autumn/tasks/jag2017autumn_g",
+      "directory": {
+        "path": "g",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "jag2017autumn_h",
+      "label": "H",
+      "title": "Separate String",
+      "url": "https://atcoder.jp/contests/jag2017autumn/tasks/jag2017autumn_h",
+      "directory": {
+        "path": "h",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "jag2017autumn_i",
+      "label": "I",
+      "title": "Revenge of the Endless BFS",
+      "url": "https://atcoder.jp/contests/jag2017autumn/tasks/jag2017autumn_i",
+      "directory": {
+        "path": "i",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "jag2017autumn_j",
+      "label": "J",
+      "title": "Farm Village",
+      "url": "https://atcoder.jp/contests/jag2017autumn/tasks/jag2017autumn_j",
+      "directory": {
+        "path": "j",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "jag2017autumn_k",
+      "label": "K",
+      "title": "Conveyor Belt",
+      "url": "https://atcoder.jp/contests/jag2017autumn/tasks/jag2017autumn_k",
+      "directory": {
+        "path": "k",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

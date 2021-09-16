@@ -1,0 +1,75 @@
+{
+  "contest": {
+    "id": "agc001",
+    "title": "AtCoder Grand Contest 001",
+    "url": "https://atcoder.jp/contests/agc001"
+  },
+  "tasks": [
+    {
+      "id": "agc001_a",
+      "label": "A",
+      "title": "BBQ Easy",
+      "url": "https://atcoder.jp/contests/agc001/tasks/agc001_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "agc001_b",
+      "label": "B",
+      "title": "Mysterious Light",
+      "url": "https://atcoder.jp/contests/agc001/tasks/agc001_b",
+      "directory": {
+        "path": "b",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "agc001_c",
+      "label": "C",
+      "title": "Shorten Diameter",
+      "url": "https://atcoder.jp/contests/agc001/tasks/agc001_c",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "agc001_d",
+      "label": "D",
+      "title": "Arrays and Palindrome",
+      "url": "https://atcoder.jp/contests/agc001/tasks/agc001_d",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "agc001_e",
+      "label": "E",
+      "title": "BBQ Hard",
+      "url": "https://atcoder.jp/contests/agc001/tasks/agc001_e",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "agc001_f",
+      "label": "F",
+      "title": "Wide Swap",
+      "url": "https://atcoder.jp/contests/agc001/tasks/agc001_f",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

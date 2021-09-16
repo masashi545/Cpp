@@ -1,0 +1,185 @@
+{
+  "contest": {
+    "id": "joisc2007",
+    "title": "2007年 日本情報オリンピック春合宿OJ",
+    "url": "https://atcoder.jp/contests/joisc2007"
+  },
+  "tasks": [
+    {
+      "id": "joisc2007_score",
+      "label": "score",
+      "title": "得点 (Score)",
+      "url": "https://atcoder.jp/contests/joisc2007/tasks/joisc2007_score",
+      "directory": {
+        "path": "score",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "joisc2007_factor",
+      "label": "factorial",
+      "title": "階乗 (Factorial)",
+      "url": "https://atcoder.jp/contests/joisc2007/tasks/joisc2007_factor",
+      "directory": {
+        "path": "factorial",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "joisc2007_mall",
+      "label": "mall",
+      "title": "ショッピングモール (Mall)",
+      "url": "https://atcoder.jp/contests/joisc2007/tasks/joisc2007_mall",
+      "directory": {
+        "path": "mall",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "joisc2007_buildi",
+      "label": "building",
+      "title": "ビルの飾り付け (Building)",
+      "url": "https://atcoder.jp/contests/joisc2007/tasks/joisc2007_buildi",
+      "directory": {
+        "path": "building",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "joisc2007_fermat",
+      "label": "fermat",
+      "title": "フェルマー方程式 (Fermat)",
+      "url": "https://atcoder.jp/contests/joisc2007/tasks/joisc2007_fermat",
+      "directory": {
+        "path": "fermat",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "joisc2007_salt",
+      "label": "salt",
+      "title": "SALT TREE XV",
+      "url": "https://atcoder.jp/contests/joisc2007/tasks/joisc2007_salt",
+      "directory": {
+        "path": "salt",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "joisc2007_anagra",
+      "label": "anagram",
+      "title": "アナグラム (Anagram)",
+      "url": "https://atcoder.jp/contests/joisc2007/tasks/joisc2007_anagra",
+      "directory": {
+        "path": "anagram",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "joisc2007_route",
+      "label": "route",
+      "title": "象使い (Route)",
+      "url": "https://atcoder.jp/contests/joisc2007/tasks/joisc2007_route",
+      "directory": {
+        "path": "route",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "joisc2007_circui",
+      "label": "circuit",
+      "title": "電気回路の結線 (Circuit)",
+      "url": "https://atcoder.jp/contests/joisc2007/tasks/joisc2007_circui",
+      "directory": {
+        "path": "circuit",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "joisc2007_fiber",
+      "label": "fiber",
+      "title": "光ファイバー (Fiber)",
+      "url": "https://atcoder.jp/contests/joisc2007/tasks/joisc2007_fiber",
+      "directory": {
+        "path": "fiber",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "joisc2007_lines",
+      "label": "lines",
+      "title": "直線 (Lines)",
+      "url": "https://atcoder.jp/contests/joisc2007/tasks/joisc2007_lines",
+      "directory": {
+        "path": "lines",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "joisc2007_packin",
+      "label": "packing1",
+      "title": "半導体工場 (Packing)",
+      "url": "https://atcoder.jp/contests/joisc2007/tasks/joisc2007_packin",
+      "directory": {
+        "path": "packing1",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "joisc2007_packing2",
+      "label": "packing2",
+      "title": "半導体工場 (Packing)",
+      "url": "https://atcoder.jp/contests/joisc2007/tasks/joisc2007_packing2",
+      "directory": {
+        "path": "packing2",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "joisc2007_packing3",
+      "label": "packing3",
+      "title": "半導体工場 (Packing)",
+      "url": "https://atcoder.jp/contests/joisc2007/tasks/joisc2007_packing3",
+      "directory": {
+        "path": "packing3",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "joisc2007_packing4",
+      "label": "packing4",
+      "title": "半導体工場 (Packing)",
+      "url": "https://atcoder.jp/contests/joisc2007/tasks/joisc2007_packing4",
+      "directory": {
+        "path": "packing4",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "joisc2007_packing5",
+      "label": "packing5",
+      "title": "半導体工場 (Packing)",
+      "url": "https://atcoder.jp/contests/joisc2007/tasks/joisc2007_packing5",
+      "directory": {
+        "path": "packing5",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

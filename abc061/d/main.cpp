@@ -15,22 +15,6 @@ int n, m;
 vector<edge> es(2100); // 枝集合 10000 <- M_MAX
 vector<ll> d(1100);    // 各頂点への最短距離 10000 <- N_MAX
 
-bool update;
-
-void bellman_ford(int s) {
-    d[s] = 0;
-    rep(k, n) {
-        update = false;
-        rep(i, m) {
-            edge e = es[i];
-            if (d[e.from] != INF && d[e.to] > d[e.from] + e.cost) {
-                d[e.to] = d[e.from] + e.cost;
-                update = true;
-            }
-        }
-    }
-}
-
 int main() {
     cin >> n >> m;
     rep(i, m) {
@@ -41,14 +25,39 @@ int main() {
     }
 
     d.assign(n, INF);
-    bellman_ford(0);
+    // まず、n-1回の更新
+    d[0] = 0;
+    rep(k, n - 1) {
+        rep(i, m) {
+            edge e = es[i];
+            if (d[e.from] != INF && d[e.to] > d[e.from] + e.cost) {
+                d[e.to] = d[e.from] + e.cost;
+            }
+        }
+    }
 
-    // 負の閉路がないかチェック
-    if (update) { // n回目も更新があったら負の閉路がある
+    ll ans = -d[n - 1];
+
+    // nへの経路に影響を及ぼす負閉路があったらinf
+    // つまり、もう一度n回の更新を行い、nに関わる更新があったらinf
+    bool update = false;
+    rep(k, n) {
+        rep(i, m) {
+            edge e = es[i];
+            if (d[e.from] != INF && d[e.to] > d[e.from] + e.cost) {
+                d[e.to] = d[e.from] + e.cost;
+                if (e.to == n - 1) {
+                    update = true;
+                }
+            }
+        }
+    }
+
+    if (update) {
         cout << "inf" << endl;
         return 0;
     }
 
-    cout << -d[n - 1] << endl;
+    cout << ans << endl;
     return 0;
 }
