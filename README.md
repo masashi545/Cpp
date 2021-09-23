@@ -50,7 +50,7 @@
     - [ABC153-E](https://atcoder.jp/contests/abc153/tasks/abc153_e) Crested Ibis vs Monster [code](abc153/e/main.cpp)
 + [例題2-3-4](antbook/2-3-4/main.cpp) 01ナップサック問題その2
     - [ABC032-D](https://atcoder.jp/contests/abc032/tasks/abc032_d) ナップサック問題(TLE:1, WA:1) [code](abc032/d/main.cpp)
-    - [ARC057-B](https://atcoder.jp/contests/arc057/tasks/arc057_b) 高橋君ゲーム(TLE:1, WA:32) [code](arc057/b/main.cpp)
+    - [ARC057-B](https://atcoder.jp/contests/arc057/tasks/arc057_b) 高橋君ゲーム(WA:20) [code](arc057/b/main.cpp)
 + [例題2-3-5](antbook/2-3-5/main.cpp) 個数制限付き部分和問題
     - [MaximumCup2018-D](https://atcoder.jp/contests/maximum-cup-2018/tasks/maximum_cup_2018_d) Many Go Round [code](maximum-cup-2018/d/main.cpp)
 + [例題2-3-6](antbook/2-3-6/main.cpp) 最長増加部分列問題(LIS)
@@ -105,6 +105,37 @@
     - [JAG2017秋](https://atcoder.jp/contests/jag2017autumn/tasks/jag2017autumn_c) Prime-Factor Prime(わからん) [code](jag2017autumn/c/main.cpp)
 + [例題2-6-6](antbook/2-6-6/main.cpp) Carmichael Numbers(べき乗の高速化)
     - [JOI2007春合宿-fermat](https://atcoder.jp/contests/joisc2007/tasks/joisc2007_fermat) フェルマー方程式 [code](joisc2007/fermat/main.cpp)
+
+
+## [AtCoder 版！蟻本 (中級編)](https://qiita.com/drken/items/2f56925972c1d34e05d8)
+### 二分探索
++ [例題3-1-1](antbook/3-1-1/main.cpp) lower_bound(ソート列から値を探す)
+    - [ABC077-C](https://atcoder.jp/contests/abc077/tasks/arc084_a) Snuke Festival [code](abc077/c/main.cpp)
++ [例題3-1-2](antbook/3-1-2/main.cpp) Cable master(解を仮定し条件を満たすか判定)
+    - [ABC023-D](https://atcoder.jp/contests/abc023/tasks/abc023_d) 射撃王 [code](abc023/d/main.cpp)
++ [例題3-1-3](antbook/3-1-3/main.cpp) Aggressive cows(最小値の最大化)
+    - [CodeFes2015予選A-D](https://atcoder.jp/contests/code-festival-2015-quala/tasks/codefestival_2015_qualA_d) 壊れた電車 [code](code-festival-2015-quala/d/main.cpp)
++ [例題3-1-4](antbook/3-1-4/main.cpp) 平均最大化
+    - [ABC034-D](https://atcoder.jp/contests/abc034/tasks/abc034_d) 食塩水 [code](abc034/d/main.cpp)
+
+
++ [例題3-2-1](antbook/3-2-1/main.cpp) Subsequence(しゃくとり法)
+    - [AOJDSL-3_C](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_3_C&lang=jp) [code](aojdsl/3-c/main.cpp)
++ [例題3-2-2](antbook/3-2-2/main.cpp) Jessica's Reading Problem
+    - [ARC022-B](https://atcoder.jp/contests/arc022/tasks/arc022_2) 細長いお菓子 [code](arc022/b/main.cpp)
++ [例題3-2-3](antbook/3-2-3/main.cpp)
+    - []() [code](/main.cpp)
++ [例題3-2-4](antbook/3-2-4/main.cpp)
+    - []() [code](/main.cpp)
++ [例題3-2-5](antbook/3-2-5/main.cpp)
+    - []() [code](/main.cpp)
++ [例題3-2-6](antbook/3-2-6/main.cpp)
+    - []() [code](/main.cpp)
++ [例題3-2-7](antbook/3-2-7/main.cpp)
+    - []() [code](/main.cpp)
++ [例題3-2-8](antbook/3-2-8/main.cpp)
+    - []() [code](/main.cpp)
+
 
 + [例題](antbook//main.cpp)
     - []() [code](/main.cpp)

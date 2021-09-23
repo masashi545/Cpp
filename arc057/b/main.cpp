@@ -22,23 +22,20 @@ int main() {
 
     int game = a[0]; // ゲーム回数（累積していく）
     for (int i = 1; i < n; ++i) {
-        game += a[i];
         for (int j = 0; j <= i; ++j) {
-            int k = dp[i][j];
-            while (1) {
-                k++;
-                if (dp[i][j] * game < k * (game - a[i])) { // 勝率が高くなる最小の勝ち数ｋを求める
-                    break;
-                }
-            }
-            if (k - dp[i][j] <= a[i]) // その日の勝ち数が、その日のゲーム回数を超えなければOK
-                dp[i + 1][j + 1] = k;
+            int k = dp[i][j] * a[i] / game + 1; // 勝率が高くなる最小の勝ち数ｋを求める
+            if (k <= a[i])                      // その日の勝ち数が、その日のゲーム回数を超えなければOK
+                dp[i + 1][j + 1] = dp[i][j] + k;
+            else
+                dp[i + 1][j] = min(dp[i][j], dp[i + 1][j]);
         }
+        game += a[i];
     }
+
     int ans = 0;
     for (int i = 1; i <= n; ++i) {
         for (int j = 1; j <= n; ++j) {
-            cout << "[" << i << "][" << j << "]:" << dp[i][j] << endl;
+            // cout << "[" << i << "][" << j << "]:" << dp[i][j] << endl;
             if (dp[i][j] <= K && dp[i - 1][j - 1] + game >= K) {
                 ans = max(ans, j);
             }
