@@ -16,11 +16,11 @@
     - [ABC104-C](https://atcoder.jp/contests/abc104/tasks/abc104_c) All Green [code](abc104/c/main.cpp)
     - [ARC029-A](https://atcoder.jp/contests/arc029/tasks/arc029_1) 高橋君とお肉 [code](arc029/a/main.cpp)
     - [ABC002-D](https://atcoder.jp/contests/abc002/tasks/abc002_4) 派閥 [code](abc002/d/main.cpp)
-+ [例題 2-1-2](antbook/2-1-2/main.cpp) Lake Counting
++ [例題 2-1-2](antbook/2-1-2/main.cpp) Lake Counting(深さ優先探索DFS->2^nになる恐れあり) -> stack
     - [ATC001-A](https://atcoder.jp/contests/atc001/tasks/dfs_a) 深さ優先探索 [code](atc001/a/main.cpp)
     - [ARC031-B](https://atcoder.jp/contests/arc031/tasks/arc031_2) 埋め立て [code](arc031/b/main.cpp)
     - [ARC037-B](https://atcoder.jp/contests/arc037/tasks/arc037_b) バウムテスト [code](arc037/b/main.cpp)
-+ [例題 2-1-3](antbook/2-1-3/main.cpp) 迷路の最短路
++ [例題 2-1-3](antbook/2-1-3/main.cpp) 迷路の最短路(幅優先探索BFS->状態数x遷移の仕方) -> queue
     - [ABC007-C](https://atcoder.jp/contests/abc007/tasks/abc007_3) 幅優先探索 [code](abc007/c/main.cpp)
 + [例題 2-1-4](antbook/2-1-4/main.cpp) 特殊な状態の列挙
     - [ABC054-C](https://atcoder.jp/contests/abc054/tasks/abc054_c) One-stroke Path [code](abc054/c/main.cpp)
@@ -49,7 +49,7 @@
     - [AOJDPL-1_C](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_C&lang=jp) ナップサック問題 [code](aojdpl/1-c/main.cpp)
     - [ABC153-E](https://atcoder.jp/contests/abc153/tasks/abc153_e) Crested Ibis vs Monster [code](abc153/e/main.cpp)
 + [例題2-3-4](antbook/2-3-4/main.cpp) 01ナップサック問題その2
-    - [ABC032-D](https://atcoder.jp/contests/abc032/tasks/abc032_d) ナップサック問題(TLE:1, WA:1) [code](abc032/d/main.cpp)
+    - [ABC032-D](https://atcoder.jp/contests/abc032/tasks/abc032_d) ナップサック問題(半分全列挙) [code](abc032/d/main.cpp)
     - [ARC057-B](https://atcoder.jp/contests/arc057/tasks/arc057_b) 高橋君ゲーム(WA:20) [code](arc057/b/main.cpp)
 + [例題2-3-5](antbook/2-3-5/main.cpp) 個数制限付き部分和問題
     - [MaximumCup2018-D](https://atcoder.jp/contests/maximum-cup-2018/tasks/maximum_cup_2018_d) Many Go Round [code](maximum-cup-2018/d/main.cpp)
@@ -120,21 +120,22 @@
 
 
 + [例題3-2-1](antbook/3-2-1/main.cpp) Subsequence(しゃくとり法)
-    - [AOJDSL-3_C](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_3_C&lang=jp) [code](aojdsl/3-c/main.cpp)
-+ [例題3-2-2](antbook/3-2-2/main.cpp) Jessica's Reading Problem
+    - [AOJDSL-3_C](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_3_C&lang=jp) The Number of Windows [code](aojdsl/3-c/main.cpp)
++ [例題3-2-2](antbook/3-2-2/main.cpp) Jessica's Reading Problem(しゃくとり法、map)
     - [ARC022-B](https://atcoder.jp/contests/arc022/tasks/arc022_2) 細長いお菓子 [code](arc022/b/main.cpp)
-+ [例題3-2-3](antbook/3-2-3/main.cpp)
-    - []() [code](/main.cpp)
-+ [例題3-2-4](antbook/3-2-4/main.cpp)
-    - []() [code](/main.cpp)
-+ [例題3-2-5](antbook/3-2-5/main.cpp)
-    - []() [code](/main.cpp)
-+ [例題3-2-6](antbook/3-2-6/main.cpp)
-    - []() [code](/main.cpp)
-+ [例題3-2-7](antbook/3-2-7/main.cpp)
-    - []() [code](/main.cpp)
-+ [例題3-2-8](antbook/3-2-8/main.cpp)
-    - []() [code](/main.cpp)
++ [例題3-2-3](antbook/3-2-3/main.cpp) Face The Right Way(区間反転)
+    - [ARC064-C](https://atcoder.jp/contests/arc064/tasks/arc064_a) Boxes and Candies(左から貪欲に) [code](arc064/c/main.cpp)
++ [例題3-2-4](antbook/3-2-4/main.cpp) Fliptile(反転)
+    - [JOI2008予選-E](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_e) おせんべい(横を決めたら縦が決まる) [code](joi2008yo/e/main.cpp)
++ [例題3-2-5](antbook/3-2-5/main.cpp) Physics Experiment(弾性衝突)
+    - [AGC013-C](https://atcoder.jp/contests/agc013/tasks/agc013_c) Ants on a Circle [code](agc013/c/main.cpp)
++ [例題3-2-6](antbook/3-2-6/main.cpp) 4 Values whose Sum is 0(半分全列挙)
+    - [JOI2008本戦-C](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_c) ダーツ [code](joi2008ho/c/main.cpp)
++ [例題3-2-7](antbook/3-2-7/main.cpp) 巨大ナップサック(重さも価値も大きいが、nが小さいとき->半分全列挙)
+    - [AOJDPL-1_H](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_H&lang=jp) Huge Knapsack Problem [code](aojdpl/1-h/main.cpp)
++ [例題3-2-8](antbook/3-2-8/main.cpp) 領域の個数(座標圧縮)
+    - [JOI2008本戦-E](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_e) ペンキの色(座圧、BFS、imos法) [code](joi2008ho/e/main.cpp)
+    - [ABC213-C](https://atcoder.jp/contests/abc213/tasks/abc213_c) Reorder Cards(まだ) [code](abc213/c/main.cpp)
 
 
 + [例題](antbook//main.cpp)

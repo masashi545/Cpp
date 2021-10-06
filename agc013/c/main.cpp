@@ -21,18 +21,18 @@ int main() {
     }
 
     // x[0]にいるアリが何番目のアリなのかを計算
-    ll num = 0;
+    ll num = 0; // x[0]にいるアリが、他のアリと時計回りの方向にすれ違った回数->時計回りにすれ違うと、indexが1大きいアリと入れ替わる->結局、最後にすれ違ったアリのindexが知りたい
     if (w[0] == 1) {
         rep(i, 1, n) {
             if (w[i] == 2) {
-                num += (x[0] - x[i] + l - 1) / l; // すれ違う回数　最終的に同じ場所の場合((x[0]-x[i]) % l == 0)は、＋しない
+                num += (x[0] - x[i] + l - 1) / l; // 最終的に同じ場所の場合((x[0]-x[i]) % l == 0)は、＋しない
             }
         }
     }
     if (w[0] == 2) {
         rep(i, 1, n) {
             if (w[i] == 1) {
-                num -= (x[i] - x[0]) / l; // すれ違う回数
+                num -= (x[i] - x[0]) / l;
             }
         }
     }
@@ -47,8 +47,8 @@ int main() {
     // cout << "num : " << num << endl;
     sort(x.begin(), x.end());
     auto itr = find(x.begin(), x.end(), x0);
-    rotate(x.begin(), itr, x.end());
-    rotate(x.rbegin(), x.rbegin() + num, x.rend());
+    rotate(x.begin(), itr, x.end());                // まず、x[0]の位置にいるアリを先頭に
+    rotate(x.rbegin(), x.rbegin() + num, x.rend()); // x[num]にもっていく
 
     rep(i, 0, n) cout << x[i] << endl;
 

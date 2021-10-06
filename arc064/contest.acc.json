@@ -1,0 +1,53 @@
+{
+  "contest": {
+    "id": "arc064",
+    "title": "AtCoder Regular Contest 064",
+    "url": "https://atcoder.jp/contests/arc064"
+  },
+  "tasks": [
+    {
+      "id": "arc064_a",
+      "label": "C",
+      "title": "Boxes and Candies",
+      "url": "https://atcoder.jp/contests/arc064/tasks/arc064_a",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "arc064_b",
+      "label": "D",
+      "title": "An Ordinary Game",
+      "url": "https://atcoder.jp/contests/arc064/tasks/arc064_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "arc064_c",
+      "label": "E",
+      "title": "Cosmic Rays",
+      "url": "https://atcoder.jp/contests/arc064/tasks/arc064_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "arc064_d",
+      "label": "F",
+      "title": "Rotated Palindromes",
+      "url": "https://atcoder.jp/contests/arc064/tasks/arc064_d",
+      "directory": {
+        "path": "f",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}
