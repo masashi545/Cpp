@@ -38,7 +38,7 @@
 + [例題2-2-5](antbook/2-2-5/main.cpp) Fence Repair
     - [Codeforces462-C](http://codeforces.com/contest/462/problem/C) Appleman and Toastman [code](codeforces462/c/main.cpp)
 
-### 動的計画法
+### 動的計画法1
 + [例題2-3-1(メモ化、再帰関数)](antbook/2-3-1/main1.cpp) 01ナップサック問題 [全探索](antbook/2-3-1/main0.cpp) [漸化式、ループ](antbook/2-3-1/main2.cpp)
     - [AOJDPL-1_B](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_B&lang=jp) 01ナップサック問題 [code](aojdpl/1-b/main.cpp)
     - [TDPC-A](https://atcoder.jp/contests/tdpc/tasks/tdpc_contest) コンテスト (部分和問題) [code](tdpc/a/main.cpp)
@@ -118,7 +118,7 @@
 + [例題3-1-4](antbook/3-1-4/main.cpp) 平均最大化
     - [ABC034-D](https://atcoder.jp/contests/abc034/tasks/abc034_d) 食塩水 [code](abc034/d/main.cpp)
 
-
+### 頻出テクニック(1)
 + [例題3-2-1](antbook/3-2-1/main.cpp) Subsequence(しゃくとり法)
     - [AOJDSL-3_C](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_3_C&lang=jp) The Number of Windows [code](aojdsl/3-c/main.cpp)
 + [例題3-2-2](antbook/3-2-2/main.cpp) Jessica's Reading Problem(しゃくとり法、map)
@@ -137,14 +137,52 @@
     - [JOI2008本戦-E](https://atcoder.jp/contests/joi2008ho/tasks/joi2008ho_e) ペンキの色(座圧、BFS、imos法) [code](joi2008ho/e/main.cpp)
     - [ABC213-C](https://atcoder.jp/contests/abc213/tasks/abc213_c) Reorder Cards(まだ) [code](abc213/c/main.cpp)
 
+### さまざまなデータ構造
++ [例題3-3-1](antbook/3-3-1/main.cpp) Crane(セグメント木)
+    - [AOJDSL-2_A](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_2_A&lang=jp) Range Minimum Query(RMQ) [code](aojdsl/2-a/main.cpp)
++ [例題3-3-2](antbook/3-3-2/main.cpp) バブルソートの交換回数(BIT)
+    - [AOJALDS1-5_D](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_5_D&lang=jp) The Number of Inversions [code](aojalds1/5-d/main.cpp)
++ [例題3-3-3](antbook/3-3-3/main.cpp) A Simple Problem with Integers(区間加算対応RSQ)
+    - [AOJDSL-2_G](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_2_G&lang=jp) RSQ and RAQ [code](aojdsl/2-g/main.cpp) 
+    - [AOJDSL-2_H](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_2_H&lang=jp) RMQ and RAQ(まだ) [code](aojdsl/2-h/main.cpp) 
++ [例題3-3-4](antbook/3-3-4/main.cpp) K-th Number(平方分割)
+    - [ARC033-C](https://atcoder.jp/contests/arc033/tasks/arc033_3) データ構造(わからん) [code](arc033/c/main.cpp)
 
-+ [例題](antbook//main.cpp)
+### 動的計画法2
++ [例題3-4-1](antbook/3-4-1/main.cpp) 巡回セールスマン問題
+    - [ABC180-E](https://atcoder.jp/contests/abc180/tasks/abc180_e) Traveling Salesman among Aerial Cities [code](abc180/e/main.cpp)
++ [例題3-4-2](antbook/3-4-2/main.cpp) Traveling by Stagecoach
+    - [みんなのプロコン2018-C](https://atcoder.jp/contests/yahoo-procon2018-qual/tasks/yahoo_procon2018_qual_c) 駆引取引 [code](yahoo-procon2018-qual/c/main.cpp) 
++ [例題3-4-3](antbook/3-4-3/main.cpp) ドミノ敷き詰め
+    - [JOI2011予選-F](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_f) JOI 旗 [code](joi2011yo/f/main.cpp)
++ [例題3-4-4](antbook/3-4-4/main.cpp) フィボナッチ数列(行列累乗)
+    - [ABC009-D](https://atcoder.jp/contests/abc009/tasks/abc009_4) 漸化式 [code](abc009/d/main.cpp)
++ [例題3-4-5](antbook/3-4-5/main.cpp) Blocks(m項間漸化式、行列累乗)
+    - [TDPC-M](https://atcoder.jp/contests/tdpc/tasks/tdpc_house) 家(わからない) [code](tdpc/m/main.cpp)
++ [例題3-4-6](antbook/3-4-6/main.cpp) グラフの長さkのパスの総数(隣接行列の累乗)
+    - [DPまとめ-R](https://atcoder.jp/contests/dp/tasks/dp_r) Walk [code](dp/r/main.cpp)
++ [例題3-4-7](antbook/3-4-7/main.cpp) Matrix Power Series(行列の累乗和)
++ [例題3-4-8](antbook/3-4-8/main.cpp) Minimizing Maximizer
+    - [ドワンゴ2018本選-B](https://atcoder.jp/contests/dwacon2018-final-open/tasks/dwacon2018_final_b) だんだん強く [code](dwacon2018-final-open/b/main.cpp)
+
+### ネットワークフロー
++ [例題3-5-1](antbook/3-5-1/main.cpp) 最大通信量(最大流問題)
+    - [ABC010-D](https://atcoder.jp/contests/abc010/tasks/abc010_4) 浮気予防 [code](abc010/d/main.cpp)
++ [例題3-5-2](antbook/3-5-2/main.cpp) 仕事も割り当て(二部マッチング)
+    - [ABC091-C](https://atcoder.jp/contests/abc091/tasks/arc092_a) 2D Plane 2N Points [code](abc091/c/main.cpp)
+
+
++ [例題](antbook//main.cpp) 
     - []() [code](/main.cpp)
 
 
 # ライブラリ
 ### グラフ
 + [Union-Find木](free/graph/Union-Find.cpp)
++ セグメント木
+    - [RMQ](free/graph/ST-RMQ.cpp)
+    - [区間加算対応RSQ](free/graph/ST-RSQ-kai.cpp)
++ [BIT](free/graph/BIT.cpp)
 + 最短経路問題
     - 単一始点
         + [Bellman-Ford法](free/graph/Bellman-Ford.cpp) -> $O(|V||E|)$ コスト負の辺がある場合有効
@@ -154,6 +192,8 @@
 + 最小全域木問題
     - [Prim法](free/graph/Prim.cpp) -> $O(|E|log|V|)$
     - [Kruskal法](free/graph/Kruskal.cpp) -> $O(|E|log|V|)$
++ 最大流問題
+    - [Ford-Fulkerson法](free/graph/Ford-Fulkerson.cpp) -> $O(F|E|)$
 
 ### 整数
 + [ユーグリッドの互除法](free/num/gcd.cpp) -> $O(logmax(a,b))$

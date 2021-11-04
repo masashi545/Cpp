@@ -1,0 +1,53 @@
+{
+  "contest": {
+    "id": "dwacon2018-final-open",
+    "title": "第4回 ドワンゴからの挑戦状 本選(オープン)",
+    "url": "https://atcoder.jp/contests/dwacon2018-final-open"
+  },
+  "tasks": [
+    {
+      "id": "dwacon2018_final_a",
+      "label": "A",
+      "title": "アナログ時計",
+      "url": "https://atcoder.jp/contests/dwacon2018-final-open/tasks/dwacon2018_final_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "dwacon2018_final_b",
+      "label": "B",
+      "title": "だんだん強く",
+      "url": "https://atcoder.jp/contests/dwacon2018-final-open/tasks/dwacon2018_final_b",
+      "directory": {
+        "path": "b",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "dwacon2018_final_c",
+      "label": "C",
+      "title": "XOR ピラミッド",
+      "url": "https://atcoder.jp/contests/dwacon2018-final-open/tasks/dwacon2018_final_c",
+      "directory": {
+        "path": "c",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "dwacon2018_final_d",
+      "label": "D",
+      "title": "ニワンゴくんとゲーム",
+      "url": "https://atcoder.jp/contests/dwacon2018-final-open/tasks/dwacon2018_final_d",
+      "directory": {
+        "path": "d",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}
