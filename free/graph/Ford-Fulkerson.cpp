@@ -5,13 +5,15 @@ using ll = long long;
 using P = pair<int, int>;
 const int INF = 1e9 + 7;
 
+namespace FordFulkerson {
+
 struct edge {
     int to;  // 行き先
     int cap; // 容量
     int rev; // 逆辺
 };
 
-int MAX_V;
+int MAX_V = 1010;
 vector<vector<edge>> G(MAX_V); // グラフの隣接行列
 vector<bool> used(MAX_V);      // DFSで既に調べたかのフラグ
 
@@ -51,3 +53,5 @@ int max_flow(int s, int t) {
         flow += f;
     }
 }
+
+} // namespace FordFulkerson

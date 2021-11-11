@@ -170,6 +170,7 @@
     - [ABC010-D](https://atcoder.jp/contests/abc010/tasks/abc010_4) 浮気予防 [code](abc010/d/main.cpp)
 + [例題3-5-2](antbook/3-5-2/main.cpp) 仕事も割り当て(二部マッチング)
     - [ABC091-C](https://atcoder.jp/contests/abc091/tasks/arc092_a) 2D Plane 2N Points [code](abc091/c/main.cpp)
+    - [AOJVol-1163](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1163&lang=jp) Cards [code](aojvol/1163/main.cpp)
 
 
 + [例題](antbook//main.cpp) 
@@ -194,6 +195,7 @@
     - [Kruskal法](free/graph/Kruskal.cpp) -> $O(|E|log|V|)$
 + 最大流問題
     - [Ford-Fulkerson法](free/graph/Ford-Fulkerson.cpp) -> $O(F|E|)$
+    - [Dinic法](free/graph/Dinic.cpp) -> $O(|E||V|)$
 
 ### 整数
 + [ユーグリッドの互除法](free/num/gcd.cpp) -> $O(logmax(a,b))$
