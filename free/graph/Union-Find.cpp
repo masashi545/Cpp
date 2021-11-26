@@ -49,4 +49,4 @@ struct union_find {
     bool same(int x, int y) {
         return find(x) == find(y);
     }
-};
+}; // struct union_find

@@ -168,9 +168,32 @@
 ### ネットワークフロー
 + [例題3-5-1](antbook/3-5-1/main.cpp) 最大通信量(最大流問題)
     - [ABC010-D](https://atcoder.jp/contests/abc010/tasks/abc010_4) 浮気予防 [code](abc010/d/main.cpp)
-+ [例題3-5-2](antbook/3-5-2/main.cpp) 仕事も割り当て(二部マッチング)
++ [例題3-5-2](antbook/3-5-2/main.cpp) 仕事の割り当て(二部マッチング)
     - [ABC091-C](https://atcoder.jp/contests/abc091/tasks/arc092_a) 2D Plane 2N Points [code](abc091/c/main.cpp)
     - [AOJVol-1163](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1163&lang=jp) Cards [code](aojvol/1163/main.cpp)
++ [例題3-5-3](antbook/3-5-3/main.cpp) 二人組(一般マッチング)->効率的なアルゴリズムはない
++ [例題3-5-4](antbook/3-5-4/main.cpp) 最小コスト通信(最小費用流問題)
+    - [AOJVol-1088](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1088#) School Excursion [code](aojvol/1088/main.cpp)
++ [例題3-5-5](antbook/3-5-5/main.cpp) Asteroids(グリッド->二部グラフ)
+    - [SoundHound2018-C](https://atcoder.jp/contests/soundhound2018/tasks/soundhound2018_c) 広告 [code](soundhound2018/c/main.cpp)
++ [例題3-5-6](antbook/3-5-6/main.cpp) Evacuation
+    - [MaximumCup2018-H](https://atcoder.jp/contests/maximum-cup-2018/tasks/maximum_cup_2018_h) Maximum Tour [code](maximum-cup-2018/h/main.cpp)
++ [例題3-5-7](antbook/3-5-7/main.cpp) 
+    - []() [code](/main.cpp)
++ [例題3-5-8](antbook/3-5-8/main.cpp) 
+    - []() [code](/main.cpp)
++ [例題3-5-9](antbook/3-5-9/main.cpp) 
+    - []() [code](/main.cpp)
++ [例題3-5-10](antbook/3-5-10/main.cpp) 
+    - []() [code](/main.cpp)
++ [例題3-5-11](antbook/3-5-11/main.cpp) 
+    - []() [code](/main.cpp)
++ [例題3-5-12](antbook/3-5-12/main.cpp) 
+    - []() [code](/main.cpp)
++ [例題3-5-13](antbook/3-5-13/main.cpp) 
+    - []() [code](/main.cpp)
++ [例題3-5-14](antbook/3-5-14/main.cpp) 
+    - []() [code](/main.cpp)
 
 
 + [例題](antbook//main.cpp) 
@@ -178,6 +201,9 @@
 
 
 # ライブラリ
+### データ構造
++ [map, queue, set](https://atcoder.jp/contests/apg4b/tasks/APG4b_aa)
+
 ### グラフ
 + [Union-Find木](free/graph/Union-Find.cpp)
 + セグメント木
@@ -195,7 +221,8 @@
     - [Kruskal法](free/graph/Kruskal.cpp) -> $O(|E|log|V|)$
 + 最大流問題
     - [Ford-Fulkerson法](free/graph/Ford-Fulkerson.cpp) -> $O(F|E|)$
-    - [Dinic法](free/graph/Dinic.cpp) -> $O(|E||V|)$
+    - [Dinic法](free/graph/Dinic.cpp) -> $O(|E||V|^2)$
+    - [二部グラフ、容量1の最大マッチング](free/graph/BipartiteMatching.cpp)
 
 ### 整数
 + [ユーグリッドの互除法](free/num/gcd.cpp) -> $O(logmax(a,b))$

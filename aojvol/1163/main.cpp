@@ -94,6 +94,8 @@ int main() {
             break;
         }
 
+        Dinic::G.assign(Dinic::MAX_V, vector<Dinic::edge>(0)); // 隣接リストの初期化
+
         // 0~M-1..青いカード
         // M~M+N-1..赤いカード
 

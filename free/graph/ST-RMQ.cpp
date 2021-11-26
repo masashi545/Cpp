@@ -52,4 +52,4 @@ struct seg_tree {
     int query(int a, int b) {
         return query(a, b, 0, 0, m);
     }
-};
+}; // struct seg_tree

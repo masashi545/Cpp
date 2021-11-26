@@ -31,4 +31,4 @@ struct BIT {
             i += i & -i; // 最後の1のビットを足す
         }
     }
-};
+}; // struct BIT
